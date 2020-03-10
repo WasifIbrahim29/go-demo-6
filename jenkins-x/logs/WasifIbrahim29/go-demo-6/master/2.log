@@ -1,0 +1,39 @@
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-7c66j[0m
+{"level":"warn","ts":1583825979.9085348,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1583825979.9088771,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-pn6vj[0m
+{"level":"warn","ts":1583825981.1205235,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1583825981.124319,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-wasifibrahim29-go-demo-6-master-h27gq-4pfp6[0m
+Unable to retrieve container logs for docker://72dc65ddbdcd5291fb0a265958b52ff5cf75b365b987101321ecf6974cd38545
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Unable to retrieve container logs for docker://4d192cc5591b7616d6e27b35752d56083b0a76c67f5255fdd30cb2c4caf635a3
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Unable to retrieve container logs for docker://4b53cc474089e9c2011e2d14066c4c9ff7246a417670a96ffc5fa069115b3e32
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-build-make-build[0m
+Unable to retrieve container logs for docker://edd8f9bc7cc0470317fa7afd57a9a662ebc43d9d143e9240cb8bc02af6b4b76c
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
+Unable to retrieve container logs for docker://354b32d62878f497221bd05f6d17a98eeec3139831e1be2b9a74f5b9c69bddbb
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-build-post-build[0m
+Unable to retrieve container logs for docker://c8fd8c28d6995c974c769e6ac50c1e6dd2f1e7069c8a828f42354cd544d8bacb
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-changelog[0m
+Unable to retrieve container logs for docker://e8af0cbf4a008e04a506d71e747687455a5223b6812968e41dbae9cfa46572c2
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-helm-release[0m
+Unable to retrieve container logs for docker://98f3a59e8d96623c797dcc219c9c66752c4d3800f7953b67f32fca88a125b22a
+
+Showing logs for build [32mwasifibrahim29-go-demo-6-master-h27gq-2[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-jx-promote[0m
+Unable to retrieve container logs for docker://fdd133693cf919f45edaa861d6bd9c55d19be9f47ae2f6296018372b374a7e36
+[31m
+Pipeline failed on stage 'from-build-pack' : container 'step-promote-jx-promote'. The execution of the pipeline has stopped.[0m
